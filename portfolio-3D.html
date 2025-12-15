@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>CV - David Sillero Fernández</title>
+    <link rel="stylesheet" href="curriculum.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="Imagenes/perfil.avif" alt="Foto de perfil" class="profile-img">
+
+        <div class="header-info">
+            <h1>David Sillero Fernández</h1>
+            <p>Diseñador Gráfico Senior<br>Desarrollador Junior<br>3D Artist</p>
+            <p><a style="color: white;text-decoration: none;" href="tel:+34687253007">687 253 007</a> <a style="color: white;text-decoration: none;" href="mailto:sillerofdz@gmail.com">sillerofdz@gmail.com</a></p>
+        </div>
+
+        <div id="container-pestanas">
+            <div onclick="window.location='index.html';" class="pestana">
+                <p>CV</p>
+            </div>
+
+            <div onclick="window.location='portfolio-diseno.html';"  class="pestana">
+                <p>Portfolio Diseño</p>
+            </div>
+
+            <div class="pestana" id="pestana-activa">
+                <p><strong>Portfolio 3D</strong></p>
+            </div>
+
+
+        </div>
+    </header>
+
+    <section class="section sectionportfolio3D">
+        <div class="bloques-portfolio-3D">
+        <p style="padding-left: 10px;">Esculturas digitales esculpidas en <strong>ZBrush</strong> y renderizadas en <strong>Blender</strong></p>
+            <div class="scroll-container-3D">
+                <video src="Videos/GodzillaRender.mp4" autoplay controls loop muted></video>
+                <video src="Videos/AgumonRender.mp4" autoplay controls loop muted></video>
+                <video src="Videos/BaphometRenderCuadrado.mp4" autoplay controls loop muted></video>
+                <video src="Videos/ZaidaRender.mp4" autoplay controls loop muted></video>
+            </div>
+        </div>
+
+
+    </section>
+
+   
+
+</body>
+</html>

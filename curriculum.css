@@ -134,6 +134,15 @@ div.scroll-container {
   padding: 10px;
 }
 
+div.scroll-container-3D {
+
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0px;
+  width: 100%;
+
+}
+
 div.scroll-container img {
   
   width: 50%;
@@ -147,12 +156,29 @@ div.scroll-container img {
     padding: 0;
 }
 
+
+
+div.scroll-container-3D video {
+  
+  width: 40%;
+  padding: 0;
+  
+}
+
 .bloques-portfolio {
     display: block;
     width: 47.5%;
     background-color: #7ebab3;
     border-radius: 4px;
     padding: 16px;
+}
+
+.bloques-portfolio-3D {
+    display: block;
+    width: 100%;
+    background-color: #7ebab3;
+    border-radius: 4px;
+    padding: 0;
 }
 
 
@@ -208,10 +234,49 @@ div.scroll-container img {
     display: block;
     padding: 25px;
     margin: 0;
+   
+    
+}
+
+div.scroll-container-3D video {
+  
+  width: 100%;
+  
+}
+
+div.scroll-container-3D {
+
+  display: contents;
+
+}
+
+.section.sectionportfolio-3D {
+
+    display: block;
+    padding: 25px;
+    margin: 0;
+   
+    
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header {
+
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.header-info h1 {
+
+    font-size: 20px;
 
 
-    
-    
 }
 
 
