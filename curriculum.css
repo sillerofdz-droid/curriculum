@@ -29,6 +29,11 @@ body {
     object-fit: cover;
 }
 
+.idiomas-movil {
+    display: none;
+
+}
+
 .header-info h1 {
     margin: 0;
     font-size: 24px;
@@ -69,7 +74,7 @@ body {
 
 #container-pestanas {
 
-    width: 100%;
+    width: 70%;
     display: inline-flex;
     justify-content: left;
     align-self: flex-end;
@@ -162,6 +167,7 @@ div.scroll-container-3D video {
   
   width: 40%;
   padding: 0;
+  padding-top: 10px;
   
 }
 
@@ -185,9 +191,35 @@ div.scroll-container-3D video {
     width: 100%;
     background-color: #7ebab3;
     border-radius: 4px;
+    margin-top: -11px;
+    margin-bottom: 35px;
     padding: 0;
 }
 
+
+
+
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+    cursor: pointer;
+}
+
+.idiomas-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.idiomas:first-child {
+    margin-top: -30px;
+}
 
 @media (max-width: 768px) {
 #experiencia {
@@ -196,6 +228,27 @@ div.scroll-container-3D video {
   
 
 }
+
+.idiomas {
+
+    display: none;
+}
+
+.idiomas-movil {
+    display: flex;
+    margin-bottom: -30px;
+    margin-top: -15px;
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.idiomas-movil img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
 
 .pestana {
     width: 30%;
@@ -206,7 +259,8 @@ div.scroll-container-3D video {
 
 #container-pestanas {
 
-justify-content: space-between
+justify-content: space-between;
+width: 100%;
     
 
 }
@@ -215,7 +269,7 @@ justify-content: space-between
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* horizontal */
+    justify-content: center;
     align-items: center;
     
 }
@@ -229,7 +283,13 @@ justify-content: space-between
 
 
 }
+.bloques-portfolio-3D {
 
+    font-size: 13px;
+    margin-bottom: 25px;
+
+
+}
 div.scroll-container img {
   
   width: 100%;
@@ -239,8 +299,8 @@ div.scroll-container img {
 .section.sectionportfolio {
 
     display: block;
-    padding: 25px;
-    margin: 0;
+    padding: 0px;
+    margin: 35px;
    
     
 }
@@ -272,11 +332,16 @@ div.scroll-container-3D {
     
 }
 
+
+
+
 .profile-img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .header {
